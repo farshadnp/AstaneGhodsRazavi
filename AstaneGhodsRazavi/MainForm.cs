@@ -49,5 +49,10 @@ namespace AstaneGhodsRazavi
             Add_To_Depository add_To_Depository = new Add_To_Depository();
             add_To_Depository.Show();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

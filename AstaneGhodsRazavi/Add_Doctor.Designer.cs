@@ -75,7 +75,8 @@ namespace AstaneGhodsRazavi
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(717, 325);
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSave.Location = new System.Drawing.Point(689, 325);
             this.btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 28);
@@ -88,7 +89,7 @@ namespace AstaneGhodsRazavi
             // 
             this.lblSearch.AutoSize = true;
             this.lblSearch.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.lblSearch.Location = new System.Drawing.Point(714, 24);
+            this.lblSearch.Location = new System.Drawing.Point(666, 21);
             this.lblSearch.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSearch.Name = "lblSearch";
             this.lblSearch.Size = new System.Drawing.Size(98, 20);
@@ -97,7 +98,8 @@ namespace AstaneGhodsRazavi
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(636, 325);
+            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnUpdate.Location = new System.Drawing.Point(608, 325);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 28);
@@ -127,12 +129,12 @@ namespace AstaneGhodsRazavi
             this.DoctorOfficeTelephone});
             this.DGVDoctor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DGVDoctor.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.DGVDoctor.Location = new System.Drawing.Point(0, 364);
+            this.DGVDoctor.Location = new System.Drawing.Point(0, 361);
             this.DGVDoctor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DGVDoctor.Name = "DGVDoctor";
             this.DGVDoctor.ReadOnly = true;
             this.DGVDoctor.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.DGVDoctor.Size = new System.Drawing.Size(822, 200);
+            this.DGVDoctor.Size = new System.Drawing.Size(784, 200);
             this.DGVDoctor.TabIndex = 23;
             this.DGVDoctor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -228,17 +230,18 @@ namespace AstaneGhodsRazavi
             // 
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.Blue;
-            this.txtSearch.Location = new System.Drawing.Point(568, 24);
+            this.txtSearch.Location = new System.Drawing.Point(537, 21);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtSearch.Size = new System.Drawing.Size(143, 22);
+            this.txtSearch.Size = new System.Drawing.Size(122, 22);
             this.txtSearch.TabIndex = 18;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(555, 325);
+            this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnDelete.Location = new System.Drawing.Point(527, 325);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 28);
@@ -272,7 +275,7 @@ namespace AstaneGhodsRazavi
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("IRAN Sans", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.groupBox1.Location = new System.Drawing.Point(176, 60);
+            this.groupBox1.Location = new System.Drawing.Point(148, 60);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -339,6 +342,7 @@ namespace AstaneGhodsRazavi
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.Location = new System.Drawing.Point(542, 186);
@@ -425,6 +429,7 @@ namespace AstaneGhodsRazavi
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label7.Location = new System.Drawing.Point(542, 156);
@@ -436,6 +441,7 @@ namespace AstaneGhodsRazavi
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.Location = new System.Drawing.Point(542, 222);
@@ -447,6 +453,7 @@ namespace AstaneGhodsRazavi
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label6.Location = new System.Drawing.Point(542, 127);
@@ -458,6 +465,7 @@ namespace AstaneGhodsRazavi
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.Location = new System.Drawing.Point(542, 94);
@@ -502,6 +510,7 @@ namespace AstaneGhodsRazavi
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.Location = new System.Drawing.Point(542, 64);
@@ -513,6 +522,7 @@ namespace AstaneGhodsRazavi
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("IRAN Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.Location = new System.Drawing.Point(542, 34);
@@ -526,7 +536,7 @@ namespace AstaneGhodsRazavi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 564);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblSearch);
@@ -537,7 +547,7 @@ namespace AstaneGhodsRazavi
             this.Font = new System.Drawing.Font("IRAN Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Add_Doctor";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "اضافه کردن پزشک";
             this.Load += new System.EventHandler(this.Add_Doctor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGVDoctor)).EndInit();

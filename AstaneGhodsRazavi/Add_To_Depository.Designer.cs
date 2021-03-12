@@ -30,9 +30,9 @@ namespace AstaneGhodsRazavi
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.TP_AddToDepository = new System.Windows.Forms.TabPage();
             this.TP_Food = new System.Windows.Forms.TabPage();
             this.TP_Clothing = new System.Windows.Forms.TabPage();
-            this.TP_AddToDepository = new System.Windows.Forms.TabPage();
             this.TP_Tottal = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +49,17 @@ namespace AstaneGhodsRazavi
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(801, 370);
             this.tabControl1.TabIndex = 0;
+            // 
+            // TP_AddToDepository
+            // 
+            this.TP_AddToDepository.BackColor = System.Drawing.Color.Transparent;
+            this.TP_AddToDepository.Location = new System.Drawing.Point(4, 29);
+            this.TP_AddToDepository.Name = "TP_AddToDepository";
+            this.TP_AddToDepository.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TP_AddToDepository.Size = new System.Drawing.Size(793, 337);
+            this.TP_AddToDepository.TabIndex = 3;
+            this.TP_AddToDepository.Text = "اضافه کردن به انبار";
+            this.TP_AddToDepository.Click += new System.EventHandler(this.TP_AddToDepository_Click);
             // 
             // TP_Food
             // 
@@ -72,17 +83,6 @@ namespace AstaneGhodsRazavi
             this.TP_Clothing.Size = new System.Drawing.Size(793, 337);
             this.TP_Clothing.TabIndex = 2;
             this.TP_Clothing.Text = "پوشاک";
-            // 
-            // TP_AddToDepository
-            // 
-            this.TP_AddToDepository.BackColor = System.Drawing.Color.Transparent;
-            this.TP_AddToDepository.Location = new System.Drawing.Point(4, 29);
-            this.TP_AddToDepository.Name = "TP_AddToDepository";
-            this.TP_AddToDepository.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TP_AddToDepository.Size = new System.Drawing.Size(793, 337);
-            this.TP_AddToDepository.TabIndex = 3;
-            this.TP_AddToDepository.Text = "اضافه کردن به انبار";
-            this.TP_AddToDepository.Click += new System.EventHandler(this.TP_AddToDepository_Click);
             // 
             // TP_Tottal
             // 
