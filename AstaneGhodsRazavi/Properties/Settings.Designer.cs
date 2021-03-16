@@ -33,5 +33,15 @@ namespace AstaneGhodsRazavi.Properties {
                 return ((string)(this["AstanDBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=Astan;Integrated Security=True")]
+        public string AstanConnectionString {
+            get {
+                return ((string)(this["AstanConnectionString"]));
+            }
+        }
     }
 }
